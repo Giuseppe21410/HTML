@@ -10,14 +10,22 @@
 </head>
 </html>
 <body>
-    <h1> This is a headline. </h1>
-    <p> This is a paragraph. </p><br> <!-- Salto de línea. -->
-
-    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat consequuntur molestiae atque, sunt provident voluptates quasi? Exercitationem perferendis, pariatur molestias, porro ex reprehenderit quos, cupiditate aperiam rerum doloremque similique quibusdam? </p>
-
-    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat consequuntur molestiae atque, sunt provident voluptates quasi? Exercitationem perferendis, pariatur molestias, porro ex reprehenderit quos, cupiditate aperiam rerum doloremque similique quibusdam? </p>  
-
+    <header> <!-- Encabezado.-->
+        <h1> This is a headline. </h1>
+        <nav>This is a subheadline.</nav>
+    </header> <!-- Fin del encabezado.-->
+    <p> This is a paragraph. </p>
+    <br> <!-- Salto de línea. -->
+    <p> Lorem ipsum dolor sit amet consectetur, <span style="font-size: 150%;">Caca</span><!--Etiqueta invisible.--> elit. Repellat consequuntur molestiae atque, sunt provident voluptates quasi? Exercitationem perferendis, pariatur molestias, porro ex reprehenderit quos, cupiditate aperiam rerum doloremque similique quibusdam? </p>
+    <div> <!-- División por bloques.-->
+        <h2> This division. </h2>
+        <p> This is a paragraph inside a division. </p>
+    </div> <!-- Fin de la división.-->
+    <p> Lorem ipsum dolor<strong>Pone en negrita.</strong><!--Etiqueta para poner palabras en negrita.--> sit amet consectetur, adipisicing elit. Repellat consequuntur molestiae atque, sunt provident voluptates quasi?<em>Pone en itálica</em><!--Etiqueta para poner palabras en negritas.--> Exercitationem perferendis, pariatur molestias, porro ex reprehenderit quos, cupiditate aperiam rerum doloremque similique quibusdam? </p>  
+ 
     <a href="https://www.google.com">Google</a> <!-- Insertar enlace.--> 
+    <br>
+    <a href="https://www.google.com" target="_blank">Google</a> <!-- Insertar enlace, en una nueva pestaña.-->
     <br>
     <img src="https://images.unsplash.com/photo-1742943679521-f4736500a471?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"alt="caca" width="300" height="200"> <!-- Insertar imagen por url.-->
     <br>
@@ -66,5 +74,9 @@
             <td> Dato 6 </td>
         </tr>
     </table>
+    <a href="#Título">Vuelve al inicio</a><!-- Enlace que regresa al inicio de la página, gracias a un enlace interno "id".-->    
+    <footer> <!-- Pie de página.-->
+        <p> This is a footer. </p>
+    </footer>
 
 </body>
